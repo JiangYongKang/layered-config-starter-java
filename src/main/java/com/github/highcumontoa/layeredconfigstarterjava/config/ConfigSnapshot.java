@@ -46,4 +46,9 @@ public final class ConfigSnapshot {
     public Map<String, Object> asMap() {
         return values;
     }
+
+    /** 全部键的来源映射（用于可解释性输出）。 */
+    public Map<String, String> provenanceMap() {
+        return provenance;
+    }
 }

@@ -12,6 +12,7 @@ public class ConfigException extends RuntimeException {
         ILLEGAL_VALUE,
         UNKNOWN_KEY,
         DUPLICATE_DEFINITION,
+        DUPLICATE_KEY_IN_SOURCE,
         CROSS_ENVIRONMENT_MISUSE,
         SOURCE_UNAVAILABLE
     }
